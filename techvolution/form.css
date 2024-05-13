@@ -1,0 +1,103 @@
+
+body{
+    background-color: pink;
+
+}
+    header{
+     font: size 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:purple;
+    text-align: center;
+}
+form{
+    .personal_information{
+        font-size: 20px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: black;
+        background-color:pink;
+        text-align: left;
+        border-color:purple;
+        border: width 1px;
+        display: flexbox;
+        flex width:95vw height:25vw ;
+        #name{
+            height: 35px;
+		     width: 95vw;
+		    padding: 0 5px;
+        }
+        #dob{
+            height: 35px;
+            width:95vw;
+            padding:0 5px;
+        }
+    
+    }
+    .contact_details{
+        font-size: 20px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: black;
+        background-color:pink;
+        text-align: left;
+        border-color:purple;
+        border: width 1px;
+        display: flex;
+        flex-wrap: wrap;
+        width: auto;
+        height: auto;
+        #number{
+            height: 35px;
+            width:95vw;
+            padding:0 5px;
+        }
+        #email{
+            height: 35px;
+            width:95vw;
+            padding:0 5px;
+        }
+        #address{
+            height: 35px;
+            width:95vw;
+            padding:0 5px;
+        }
+        #city{
+            height: 35px;
+            width:95vw;
+            padding:0 5px;
+        }
+        #state{
+            height: 35px;
+            width:96vw;
+            padding:0 5px;
+        }
+        #zip_code{
+            height: 35px;
+            width:95vw;
+            padding:0 5px;
+        }
+    }
+    .additional_information{
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 20px;
+        color: black;
+        background-color:pink;
+        text-align: left;
+        border-color:purple;
+        border: width 1px;
+        display: flex;
+        flex-wrap: wrap;
+        width: auto;
+        height: auto;
+        #diet{
+            height: 35px;
+            width:95vw;
+            padding:0 5px;
+        }
+        #size{
+            height: 35px;
+            width:95vw;
+            padding:0 5px;
+        }
+    }
+    #submit{
+        background-color: brown;
+    }

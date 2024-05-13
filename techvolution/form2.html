@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechVolution form</title>
+    <link href="/techvolution/form.css" rel="stylesheet">
+    <link rel="stylesheet" href="/techvolution/form.css">
+</head>
+</head>
+<body>
+  <header>
+  <H1><B><U>TECHVOLUTION 2024 REGISTRATION FORM</U></B></H1>
+  </header>
+  <script src="form.js"></script>
+    <form onsubmit=" return data()" action="final.html">
+      <fieldset class="personal_information">
+        <legend class="persoanl_infomation"><H3>PERSONAL INFORMATION</H3></legend>
+        <div class="personal_information">
+          <div class="name">
+            <label class="name" for="name">NAME</label>
+            <input class="name" type="name" name="" id="name" value="">
+            <div class="dob">
+              <label class="dob" for="dob">DATE OF BIRTH</label>
+            <input type="date" id="dob" value="dob" name="">
+          </div>
+        </div>
+            <div class="personal_information">
+              <label for="gender" class="personal_information">GENDER:</label><br>
+              <div class="personal_information">
+                  <input type="radio" class="personal_information" id="male" value="MALE" name="gender">male
+                  <input type="radio" class="personal_information" id="female" value="female" name="gender">female
+                  <input type="radio" class="personal_information" id="non binary" valuee="non binary" name="gender">non binary
+              </div>
+            </div>
+          </fieldset>
+        <fieldset class="contact_details">
+          <legend class="contact details"><H3>CONTACT DETAILS</H3></legend>
+          <div class="contact_details">
+            <div class="email">
+              <label class="email" for="email">EMAIL:</label>
+              <input class="email" type="email" name="" id="email" value="" placeholder="" >
+              <div class="number" >
+                <label class="number" for="number">NUMBER:</label>
+                <input type="text" id="number" value="" name="" placeholder="">
+              </div>
+            </div>
+            <div class="address">
+              <label class="address" for="street address">STREET ADDRESS:</label>
+              <input class="address" type="text" name="" id="address" value="" placeholder="">
+              <label class="addresss" for="city">CITY</label>
+              <input type="text" id="city"  value="" placeholder="">
+                <label for="state">STATE</label>
+                <select id="state" name="" required>
+                    <option value="ANDHRA PRADESH">ANDHRA PRADESH</option>
+                    <option value="ARUNACHAL PRADESH">ARUNACHAL PRADESH</option>
+                    <option value="ASSAM">ASSAM</option>
+                    <option value="BIHAR">BIHAR</option>
+                    <option value="CHATTISGARH">CHATTISGARH</option>
+                    <option value="GOA">GOA</option>
+                    <option value="GUJARAT">GUJARAT</option>
+                    <option value="HARYANA">HARYANA</option>
+                    <option value="HIMACHAL PRADESH">HIMACHAL PRADESH</option>
+                    <option value="JAMMU AND KASHMIR">JAMMU AND KASHMIR</option>
+                    <option value="JHARKHAND">JHARKHAND</option>
+                    <option value="KARNATAKA">KARNATAKA</option>
+                    <option value="KERALA">KERALA</option>
+                    <option value="MADHYA PRADESH">MADHYA PRADESH</option>
+                    <option value="MAHARASHTRA">MAHARASHTRA</option>
+                    <option value="MANIPUR">MANIPUR</option>
+                    <option value="MEGHALAYA">MEGHALAYA</option>
+                    <option value="MIZORAM">MIZORAM</option>
+                    <option value="NAGALAND">NAGALAND</option>
+                    <option value="ODISHA">ODISHA</option>
+                    <option value="PUNJAB">PUNJAB</option>
+                    <option value="RAJASTHAN">RAJASTHAN</option>
+                    <option value="SIKKIM">SIKKIM</option>
+                    <option value="TAMIL NADU">TAMIL NADU</option>
+                    <option value="TELANGANA">TELANGANA</option>
+                    <option value="TRIPURA">TRIPURA</option>
+                    <option value="UTTAR PRADESH">UTTAR PRADESH</option>
+                    <option value="UTTARAKHAND">UTTARAKHAND</option>
+                    <option value="WEST BENGAL">WEST BENGAL</option>
+                </select><br>
+            </div>
+            <div class="zip_code">
+              <label class="address" for="zip_code">ZIP CODE</label>
+              <input class="address" type="text" name="zip code" id="zip_code" value="">
+            </div>
+          </div>
+        </fieldset>
+        <fieldset class="additional_information">
+        <legend class="additional_information"><H3>ADDITIONAL INFORMATION</H3></legend>
+        <div class="additional_information">
+          <div class="preference">
+            <label class="additional_information" for="preference" >EVENT PREFERENCE:</label>               
+            <input type="radio" class="additional_information" id="preference" value="preference" name="outdoor">Outdoor
+            <input type="radio" class="additional_information" id="preference" value="preference" name="indoor">Indoor
+            <input type="radio" class="additional_information" id="preference" value="preference" name="Both indoor and outdoor">both indoor and outdoor
+              </label>
+          </div>
+          <div class="diet">
+            <label class="diet" for="diet">DIETARY RESTRICTIONS:</label>
+          <input type="text" value="" id="diet" placeholder="">
+          </div>
+          <div class="tshirts">
+            <label class="tshirts" for="size">T-SHIRT SIZE:</label>
+            <select id="size" name="size" required>
+              <option value=""></option>
+              <option value="small">small</option>
+              <option value="medium">medium</option>
+              <option value="large">large</option>
+              <option value="xl">xl</option>
+              <option value="xxl">xxl</option>
+            </select>
+          </div>
+        </div>
+      </fieldset>
+      </form>
+      <input type="submit" value="SUBMIT">
+</body>
+</html>
